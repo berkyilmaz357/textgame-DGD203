@@ -54,7 +54,7 @@ namespace TextGame
             }
             else
             {
-                Console.WriteLine("I already asked a riddle here. You should go to another room.");
+                Console.WriteLine("You already solved the mystery! You can exit the game and try again !");
 
                 Console.Write("Press any key...");
                 Console.ReadKey();
