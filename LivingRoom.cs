@@ -10,7 +10,7 @@ namespace TextGame
 
             Console.Write("Press any key...");
             Console.ReadKey();
-            Console.Clear(); // Clear the screen
+            Console.Clear(); 
 
             Room.Entry();
         }

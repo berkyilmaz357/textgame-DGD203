@@ -24,13 +24,13 @@ namespace TextGame
                     Console.WriteLine("You must first find the mysterious object!");
                     Console.Write("Press any key...");
                     Console.ReadKey();
-                    Console.Clear(); // Clear the screen
+                    Console.Clear(); 
                     Entry();
                 }
                 else
                 {
                     Console.WriteLine("Welcome to the kitchen!");
-                    RiddleRoom.Entry(2); // Call the version with 2 chances
+                    RiddleRoom.Entry(2); 
                 }
                 break;
             case "living room":
@@ -47,7 +47,7 @@ namespace TextGame
                     Console.WriteLine("You already found a mysterious object here!");
                     Console.Write("Press any key...");
                     Console.ReadKey();
-                    Console.Clear(); // Clear the screen
+                    Console.Clear(); 
                     Entry();
                 }
                 break;
@@ -65,7 +65,7 @@ namespace TextGame
 
         Console.Write("Press any key...");
         Console.ReadKey();
-        Console.Clear(); // Clear the screen
+        Console.Clear(); 
     }
 }
 }
